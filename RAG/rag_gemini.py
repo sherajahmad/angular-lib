@@ -9,7 +9,7 @@ from langchain_google_genai import (
 from langchain.chains import RetrievalQA
 
 # 🔑 Set your Google API Key (Gemini)
-os.environ["GOOGLE_API_KEY"] = "AI"  # Replace with your Gemini API key
+os.environ["GOOGLE_API_KEY"] = "Ai"  # Replace with your Gemini API key
 
 # 1️⃣ Load Angular source files from 'data/' folder
 loader = DirectoryLoader("data", glob="**/*.*", loader_cls=TextLoader)
